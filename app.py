@@ -8,6 +8,6 @@ def hello_world():
 @app.route('/woo')
 def nature_call():
     print "woooooooooo"
-    
+
 if __name__ == '__main__':
     app.run()
