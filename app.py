@@ -5,5 +5,9 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 
+@app.route('/woo')
+def nature_call():
+    print "woooooooooo"
+    
 if __name__ == '__main__':
     app.run()
